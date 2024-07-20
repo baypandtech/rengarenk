@@ -1,0 +1,87 @@
+ /* Custom styles */
+       
+ .form-container {
+    width: 100%;
+    margin-top: 0;
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 10px 0 0 rgba(0,0,0,0.1); */
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .form-group input[type="text"], input[type="tel"], input[type="email"], .form-group textarea{
+    border:none;
+    border-radius: 0;
+    border-bottom: 2px solid gray;
+    background-color: rgb(252, 252, 252);
+  }
+  .form-group textarea{
+    height: 50px;
+  }
+  .form-group label {
+    font-weight: bold;
+  }
+  .form-control {
+    height: 40px;
+  }
+  .center{
+      display: flex;
+      justify-content: center;
+  }
+
+  select {
+    font-size: 14px;
+    padding: 10px;
+    height: 3.4em;
+    line-height: 2;
+    }
+    select:first-of-type {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    }
+    select:last-of-type {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    }
+    select:focus,
+    select:active {
+    outline: 0;
+    }
+
+    select option {
+        max-height: 200px;
+    }
+
+    .setting_panel{
+      border-right: 1px solid rgb(221, 221, 221);
+    }
+    .form_group {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      border: 1px solid rgb(211, 211, 211);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Kutu gölgesi efekti */
+    }
+    .page_image{
+      width: 100px;
+    }
+    .page_detail_image{
+      width: 200px;
+    }
+    #deleteForm{
+      display: none;
+    }
+    #single_delete{
+      display: none;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .setting_panel{
+        border-bottom: 1px solid rgb(224, 224, 224);
+        border-right: none;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+      }  
+    }

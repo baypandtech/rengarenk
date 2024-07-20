@@ -1,0 +1,21 @@
+/*============================================================================================*/
+/* Your custom styles below */
+/*============================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Rajdhani:wght@300;400;500;600;700&family=Tac+One&display=swap');
+.category-info {
+    padding: 15px;
+}
+
+.category-info p {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    /* text-align: center; */
+}
+.cizgi{
+    width: 80%;
+    height: 0.5px;
+    background-color: gainsboro;
+    margin-bottom: 20px;
+}
